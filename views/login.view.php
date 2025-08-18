@@ -28,7 +28,7 @@ $validations = flash()->get('validations');
                 <span class="label-text text-black">Email</span>
               </div>
               <input
-                class="input input-bordered w-full max-w-xs bg-white px-2"
+                class="input input-secondary w-full max-w-xs bg-white px-2"
                 type="email"
                 name="email"
                 value="<?= old('email') ?>" />
@@ -42,7 +42,7 @@ $validations = flash()->get('validations');
                 <span class="label-text text-black">Senha</span>
               </div>
               <input
-                class="input input-bordered w-full max-w-xs bg-white px-2"
+                class="input input-secondary w-full max-w-xs bg-white px-2"
                 type="password"
                 name="password" />
               <?php if (isset($validations['password'])) { ?>
